@@ -2,7 +2,7 @@ import React from "react";
 import { fadeIn, slideIn, staggerContainer } from "../../utils/motion";
 import css from "./Hero.module.scss";
 import { motion } from "framer-motion";
-import aqeel from '../../img/aqeel.png'
+import aqeel from '../../img/portfolio.png'
 const Hero = () => {
   return (
     <section className={`paddings ${css.wrapper}`}>
@@ -38,7 +38,7 @@ const Hero = () => {
           className={css.person}
         >
           <motion.img 
-          style={{height:'550px',width:'260px'}}
+          style={{height:'430px',width:'260px'}}
             variants={slideIn("up", "tween", 0.5, 1.3)}
             src={aqeel}
           />
