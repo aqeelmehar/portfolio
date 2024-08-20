@@ -43,7 +43,6 @@ const Hero = () => {
             src={aqeel}
           />
         </motion.div>
-
         <a className={css.email} href="mailto:meharaqeel627@gmail.com">
         mailto:meharaqeel627@gmail.com
         </a>
